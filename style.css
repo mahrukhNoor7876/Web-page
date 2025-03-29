@@ -1089,7 +1089,7 @@ footer p {
         flex-direction: column;
         width: auto;
         height: auto;
-        margin: 17rem 0px;
+        margin: 20rem 0px;
     }
 
     .container .inner-container {
@@ -1110,7 +1110,7 @@ footer p {
 
     /* enterprise-container */
     .enterprise-container {
-        padding: 25em 2em 0;
+        padding: 27rem 2rem 0;
         width: auto;
         height: 1500px;
     }
