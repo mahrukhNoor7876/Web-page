@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', function () {
     
-    //mobile nav-bar
+
     let navlink = document.querySelectorAll(".nav-link");
     let currentUrl = window.location.pathname;
     console.log("current url: ", currentUrl)
@@ -14,8 +14,10 @@ document.addEventListener('DOMContentLoaded', function () {
             link.classList.remove("active")
         }
     })
-    var menu = document.querySelector('.menu-icon');
-    var navLinks = document.querySelector('.menu');
+
+    //mobile nav-bar
+    let menu = document.querySelector('.menu-icon');
+    let navLinks = document.querySelector('.menu');
     menu.addEventListener('click', function () {
         menu.classList.toggle('active');
         navLinks.classList.toggle('active');
