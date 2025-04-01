@@ -1928,13 +1928,14 @@ footer p {
 
     /* enterprise-container */
     .enterprise-container {
-        padding: 20rem 3rem 0;
+        padding: 10rem 3rem 0;
         width: auto;
         height: 800px;
     }
     .enterprise-container .box {
         width: auto;
         gap: 20px;
+        margin-top: 10rem;
     }
 
     .box .box-left {
