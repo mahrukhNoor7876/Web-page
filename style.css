@@ -1089,7 +1089,8 @@ footer p {
         flex-direction: column;
         width: auto;
         height: auto;
-        margin: 17rem 0px;
+        top: 0;
+        margin: 30rem 0px 0;
     }
 
     .container .inner-container {
@@ -1515,7 +1516,8 @@ footer p {
         flex-direction: column;
         width: auto;
         height: auto;
-        margin: 27rem 0 0;
+        top: 0;
+        margin: 40rem 0 0;
     }
 
     .container .inner-container {
@@ -1899,6 +1901,7 @@ footer p {
         max-width: 300px;
         margin: 23rem auto;
         height: auto;
+        top: 10%;
         justify-content: center;
     }
 
@@ -1928,7 +1931,7 @@ footer p {
 
     /* enterprise-container */
     .enterprise-container {
-        padding: 10rem 3rem 0;
+        padding: 5rem 3rem 0;
         width: auto;
         height: 800px;
     }
